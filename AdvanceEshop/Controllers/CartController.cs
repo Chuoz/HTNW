@@ -20,18 +20,41 @@ namespace AdvanceEshop.Controllers
         }
 
         public Cart? Cart { get; set; }
-        public IActionResult AddToCart(int productId)
+        public IActionResult AddToCart(int productId, int quantity = 1)
         {
             Product? product = _context.Products
                 .FirstOrDefault(p => p.ProductId == productId);
             if (product != null)
             {
                 Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
-                Cart.AddItem(product, 1);
+                Cart.AddItem(product, quantity);
                 HttpContext.Session.SetJson("cart", Cart);
             }
             return View("Cart", Cart);
         }
+
+        [HttpPost]
+        public IActionResult AddToCartFromDetails(int productId, int quantity = 1)
+        {
+            Product? product = _context.Products.FirstOrDefault(p => p.ProductId == productId);
+            if (product != null)
+            {
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+                if(Cart != null)
+                {
+                    Cart.AddItem(product, quantity);
+                    HttpContext.Session.SetJson("cart", Cart);
+                }
+                else
+                {
+                    Console.WriteLine("Loi");
+                }
+            }
+            return View("Cart", Cart);
+        }
+
+
+
 
         public IActionResult UpdateCart(int productId)
         {

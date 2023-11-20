@@ -7,12 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AdvanceEshop.Data;
 using AdvanceEshop.Models;
+using AdvanceEshop.Models.ViewModel;
+using System.Drawing.Printing;
 
 namespace AdvanceEshop.Controllers
 {
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        public int PageSize = 9;
 
         public CategoriesController(ApplicationDbContext context)
         {
@@ -22,10 +25,58 @@ namespace AdvanceEshop.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+            /*return _context.Categories != null ?
+                        View(await _context.Categories.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+            */
+            var categories = await _context.Categories.ToListAsync();
+            return View(categories);
         }
+
+        // GET: Products
+        public async Task<IActionResult> Index(int productPage = 1)
+        {
+
+            return View(
+                new ProductsListViewModel
+                {
+                    Products = _context.Products
+                    .Skip((productPage - 1) * PageSize)
+                    .Take(PageSize),
+                    PagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = productPage,
+                        TotalItems = _context.Products.Count()
+
+                    }
+                }
+                );
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Search(string keywords, int productPage = 1)
+        {
+
+            return View("Index",
+                new ProductsListViewModel
+                {
+                    Products = _context.Products
+                    .Where(p => p.ProductName.Contains(keywords))
+                    .Skip((productPage - 1) * PageSize)
+                    .Take(PageSize),
+                    PagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = productPage,
+                        TotalItems = _context.Products.Count()
+
+                    }
+                }
+                );
+        }
+
+
 
         // GET: Categories/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -150,14 +201,14 @@ namespace AdvanceEshop.Controllers
             {
                 _context.Categories.Remove(category);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CategoryExists(int id)
         {
-          return (_context.Categories?.Any(e => e.CategoryId == id)).GetValueOrDefault();
+            return (_context.Categories?.Any(e => e.CategoryId == id)).GetValueOrDefault();
         }
     }
 }

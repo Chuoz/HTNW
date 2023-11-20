@@ -35,7 +35,7 @@ namespace AdvanceEshop.Controllers
             if (filter.PriceRanges != null && filter.PriceRanges.Count > 0 && !filter.PriceRanges.Contains("all"))
             {
                 List<PriceRange> priceRanges = new List<PriceRange>();
-                foreach(var range in filter.PriceRanges)
+                foreach (var range in filter.PriceRanges)
                 {
                     var value = range.Split('-').ToArray();
                     PriceRange priceRange = new PriceRange();
@@ -60,14 +60,14 @@ namespace AdvanceEshop.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index(int productPage=1)
+        public async Task<IActionResult> Index(int productPage = 1)
         {
-            
+
             return View(
                 new ProductsListViewModel
                 {
                     Products = _context.Products
-                    .Skip((productPage -1 ) * PageSize)
+                    .Skip((productPage - 1) * PageSize)
                     .Take(PageSize),
                     PagingInfo = new PagingInfo
                     {
@@ -84,7 +84,7 @@ namespace AdvanceEshop.Controllers
         public async Task<IActionResult> Search(string keywords, int productPage = 1)
         {
 
-            return View("Index", 
+            return View("Index",
                 new ProductsListViewModel
                 {
                     Products = _context.Products
@@ -103,10 +103,36 @@ namespace AdvanceEshop.Controllers
         }
 
 
-        public async Task<IActionResult> ProductsByCat (int categoryId)
+        public async Task<IActionResult> ProductsByCat(int categoryId, int productPage = 1)
         {
-            var applicationDbContext = _context.Products.Where(p => p.CategoryId == categoryId).Include(p => p.Category).Include(p => p.Color).Include(p => p.Size);
+            /*
+             * var applicationDbContext = _context.Products.Where(p => p.CategoryId == categoryId).Include(p => p.Category).Include(p => p.Color).Include(p => p.Size);
             return View("Index", await applicationDbContext.ToListAsync());
+            */
+            var products = await _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .Include(p => p.Category)
+                .Include(p => p.Color)
+                .Include(p => p.Size)
+                .ToListAsync(); 
+
+            var viewModel = new ProductsListViewModel
+            {
+                Products = products
+                    .Skip((productPage - 1) * PageSize)
+                    .Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = productPage,
+                    TotalItems = _context.Products.Count()
+
+                }
+                // Các thông tin khác cần thiết trong mô hình ProductsListViewModel
+            };
+
+            return View("Index", viewModel);
+
         }
 
 
@@ -255,14 +281,14 @@ namespace AdvanceEshop.Controllers
             {
                 _context.Products.Remove(product);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProductExists(int id)
         {
-          return (_context.Products?.Any(e => e.ProductId == id)).GetValueOrDefault();
+            return (_context.Products?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
     }
 }

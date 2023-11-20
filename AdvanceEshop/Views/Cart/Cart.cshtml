@@ -27,7 +27,7 @@
                     @foreach (var line in Model?.Lines)
                     {
                         <tr>
-                            <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;">@line.Product.ProductName</td>
+                            <td class="align-middle"><img src="@line.Product.ProductPhoto" alt="" style="width: 50px;">@line.Product.ProductName</td>
                             <td class="align-middle">$@(line.Product.ProductPrice * (1 - line.Product.ProductDiscount))</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td class="align-middle">$@(line.Product.ProductPrice * (1 - line.Product.ProductDiscount))</td>
+                            <td class="align-middle">$@(line.Product.ProductPrice * (1 - line.Product.ProductDiscount) * line.Quantity)</td>
                             <td class="align-middle"><a href="/Cart/RemoveFromCart/?productId=@line.Product.ProductId" class="btn btn-sm btn-primary"><i class="fa fa-times"></i></a></td>
                         </tr>
 
@@ -95,49 +95,3 @@
     </div>
 </div>
 <!-- Cart End -->
-
-
-@section Scripts{
-    <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
-    <script>
-        paypal.Buttons({
-            style: {
-                disableMaxWidth: true
-            },
-        }).render('#paypal-button-container');
-    </script>
-        }
-
-<script>
-    paypal.Buttons({
-        style: {
-            layout: 'vertical',
-            color: 'silver',
-            tagline: 'false'
-        },
-        createOrder: (data, actions) => {
-            return fetch("/Payment/PaypalOrder", {
-                method: "post",
-            }).then((response) => {
-                if (!response.ok) {
-                    return response.json().then(error => { throw error; });
-                }
-
-                return response.json();
-            }).then((order) => order.id)
-                .catch(error => alert(error.message));
-        },
-        onApprove: (data, actions) => {
-            return fetch(`/Payment/PaypalCapture?orderId=${data.orderID}`, {
-                method: "post",
-            }).then((response) => {
-                if (!response.ok) {
-                    return response.json().then(error => { throw error; });
-                }
-
-                //Đổi địa chỉ tới action thông báo thành công
-                window.location.href = "/Payment/Success";
-            }).catch(error => alert(error.message));
-        }
-    }).render('#paypal-button-container');
-</script>

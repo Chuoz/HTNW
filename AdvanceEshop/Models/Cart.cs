@@ -24,7 +24,8 @@ namespace AdvanceEshop.Models
 
         public void RemoveLine(Product product) => Lines.RemoveAll(p => p.Product.ProductId == product.ProductId);
 
-        public decimal ComputeTotalValues() => (decimal)Lines.Sum(e => e.Product?.ProductPrice * (1 - e.Product?.ProductDiscount) * e.Quantity);
+        public decimal? ComputeTotalValues() => Lines.Sum(e => e.Product != null ? (decimal)e.Product.ProductPrice * (1 - e.Product.ProductDiscount) * e.Quantity : 0);
+
     }
     public class CartLine
     {

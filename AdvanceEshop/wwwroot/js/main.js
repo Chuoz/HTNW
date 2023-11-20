@@ -1,4 +1,4 @@
-(function ($) {
+﻿(function ($) {
     "use strict";
     
     // Dropdown on mouse hover
@@ -83,7 +83,7 @@
         }
     });
 
-
+    
     // Product Quantity
     $('.quantity button').on('click', function () {
         var button = $(this);
@@ -99,6 +99,7 @@
         }
         button.parent().parent().find('input').val(newVal);
     });
+    
     
 })(jQuery);
 
