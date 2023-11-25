@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AdvanceEshop.Repository.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AdvanceEshop.Models
@@ -18,9 +19,9 @@ namespace AdvanceEshop.Models
         [Column(TypeName = "decimal(8,2)")]
         public decimal? ProductPrice { get; set; }
         [Column(TypeName = "decimal(2,2)")]
-        public decimal? ProductDiscount { get; set;}
+        public decimal? ProductDiscount { get; set; }
         [StringLength(300)]
-        public string? ProductPhoto { get; set; }
+        public string? ProductPhoto { get; set; } = "noname.jpg";
         [ForeignKey("Size")]
         public int SizeId { get; set; }
         public Size? Size { get; set; }
@@ -29,5 +30,10 @@ namespace AdvanceEshop.Models
         public Color? Color { get; set; }
         public bool IsTrandy { get; set; }
         public bool IsArrived { get; set; }
+
+        [NotMapped]
+        [FileExtension]
+        public IFormFile ImageUpload { get; set; }
+
     }
 }
