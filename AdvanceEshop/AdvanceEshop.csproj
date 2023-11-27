@@ -67,6 +67,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\backend\images\" />
     <Folder Include="wwwroot\media\categories\" />
   </ItemGroup>
 

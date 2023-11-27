@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -81,8 +81,8 @@
                     <i class="fas fa-heart text-primary"></i>
                     <span class="badge">0</span>
                 </a>
-                    @await Component.InvokeAsync("CartWidget")
-                
+                @await Component.InvokeAsync("CartWidget")
+
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid mb-5">
         <div class="row border-top px-xl-5">
-            
+
 
 
             @await Component.InvokeAsync("Navbar")
@@ -119,9 +119,46 @@
                             </div>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
+
+                        <ul class="navbar-nav">
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <li class="nav-item ">
+                                    <a asp-controller="Account" class="nav-item nav-link text-dark"><i class="fade fa-lock"></i>Hi @User.Identity.Name!</a>
+                                    </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-dark" asp-controller="Account" asp-action="Logout"><i class="fade fa-lock"></i>Logout</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item ">
+                                    <a class="nav-link text-dark" asp-controller="Account" asp-action="Create"><i class="fade fa-lock"></i>Register</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-dark" asp-controller="Account" asp-action="Login"><i class="fade fa-lock"></i>Login</a>
+                                </li>
+                            }
+                        </ul>
+
+
+
+                        @*
                         <div class="navbar-nav ml-auto py-0">
-                            <partial name="_LoginPartial" />
+                           
+                            <div class="col-sm-8">
+                                @if(User.Identity?.IsAuthenticated ?? false) {
+                                <li><a asp-controller="Account"><i class="fade fa-lock"></i>Hi, @User.Identity.Name, Logout</a></li>
+
+                                }
+                                else {
+                                    <li><a asp-controller="Account" asp-action="Create"><i class="fade fa-lock"></i>Register</a></li>
+                                    <li><a asp-controller="Account" asp-action="Login"><i class="fade fa-lock"></i>Login</a></li>
+                                }
+
+                            </div>
                         </div>
+                        *@
                     </div>
                 </nav>
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
@@ -193,11 +230,11 @@
     </div>
     <!-- Featured End -->
     <!-- Categories Start -->
-
     <!-- Offer End -->
     <!-- Products Start -->
+    @Html.Partial("NotificationPartial")
     @RenderBody()
-    
+
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
         <div class="row px-xl-5 pt-5">

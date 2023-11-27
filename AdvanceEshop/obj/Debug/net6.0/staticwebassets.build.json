@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J/ZyS+/HHbou0cuHENfJUJv9ZGKBVuPjtZPQ9NlG0w4=",
+  "Hash": "Oj7Capozc5J8HsNl6A1pRhGnDkjwz7ryWeoO6OH39YI=",
   "Source": "AdvanceEshop",
   "BasePath": "_content/AdvanceEshop",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdvanceEshop.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "AdvanceEshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\",
+      "BasePath": "_content/AdvanceEshop",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\css\\site.css",

@@ -64,6 +64,7 @@
 
     <!-- Offer End -->
     <!-- Products Start -->
+    @Html.Partial("NotificationPartial")
     @RenderBody()
     
     <!-- Footer Start -->
@@ -85,6 +86,7 @@
 
     <!-- Template Javascript -->
     <script src="/js/main.js"></script>
+    <script src="/backend/js/site.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

@@ -1,4 +1,5 @@
 ﻿using AdvanceEshop.Data;
+using AdvanceEshop.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using static AdvanceEshop.Models.PaymentClient;
@@ -11,27 +12,38 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<AppUserModel, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.AddScoped<SignInManager<AppUserModel>>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
+/*
+builder.Services.AddIdentity<AppUserModel,IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+*/
+builder.Services.AddRazorPages();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
 
-
-// Đăng ký PaypalClient dạng Singleton (có thể hiện/ instance duy nhất trong ứng dụng)
-builder.Services.AddSingleton(x =>
-    new PaypalClient(
-        builder.Configuration["PayPalOptions:ClientId"],
-        builder.Configuration["PayPalOptions:ClientSecret"],
-        builder.Configuration["PayPalOptions:Mode"]
-    )
-);
-
-
-
+    options.User.RequireUniqueEmail = true;
+});
 
 var app = builder.Build();
+
+
+
+app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

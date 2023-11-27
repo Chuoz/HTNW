@@ -21,6 +21,7 @@
                 <label asp-for="CategoryUpLoadImage" class="control-label"></label>
                 <input asp-for="CategoryUpLoadImage" class="form-control" />
                 <span asp-validation-for="CategoryUpLoadImage" class="text-danger"></span>
+                <img id="imgpreview" class="pt-2" />
             </div>
             <div class="form-group">
                 <label asp-for="CategoryOrder" class="control-label"></label>
@@ -42,4 +43,9 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script>
+        $("#CategoryUpLoadImage").change(function () {
+            readURL(this);
+        })
+    </script>
 }

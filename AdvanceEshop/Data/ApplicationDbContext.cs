@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AdvanceEshop.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUserModel>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
