@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Oj7Capozc5J8HsNl6A1pRhGnDkjwz7ryWeoO6OH39YI=",
+  "Hash": "Zk66lgeF+vKNEFVEo7N1/eimhKn5rY2Z1mvQEvDZ0ZQ=",
   "Source": "AdvanceEshop",
   "BasePath": "_content/AdvanceEshop",
   "Mode": "Default",
@@ -3636,6 +3636,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\6db9de74-af52-4a3d-a956-96e5aeb35434_product-8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\media\\products\\c1c51cc4-9fd5-481b-9bb5-8b6c2b0d7059_yellow.jpg",
+      "SourceId": "AdvanceEshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\",
+      "BasePath": "_content/AdvanceEshop",
+      "RelativePath": "media/products/c1c51cc4-9fd5-481b-9bb5-8b6c2b0d7059_yellow.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\c1c51cc4-9fd5-481b-9bb5-8b6c2b0d7059_yellow.jpg"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\media\\products\\e890286e-8cb1-42a3-b896-4def76eebdeb_cat-6.jpg",

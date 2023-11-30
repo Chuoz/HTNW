@@ -1,6 +1,7 @@
 ﻿using AdvanceEshop.Data;
 using AdvanceEshop.Infrastructure;
 using AdvanceEshop.Models;
+using AdvanceEshop.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdvanceEshop.Controllers
@@ -16,70 +17,79 @@ namespace AdvanceEshop.Controllers
 
         public IActionResult Index()
         {
-            return View("Cart", HttpContext.Session.GetJson<Cart>("cart"));
+            List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            CartItemViewModel cartVM = new()
+            {
+                CartItems = cartItems,
+                GrandTotal = cartItems.Sum(x => x.Price * (1 - x.Discount) * x.Quantity)
+            };
+            return View(cartVM);
         }
 
-        public Cart? Cart { get; set; }
-        public IActionResult AddToCart(int productId, int quantity = 1)
+        public async Task<IActionResult> AddToCart(int Id)
         {
-            Product? product = _context.Products
-                .FirstOrDefault(p => p.ProductId == productId);
-            if (product != null)
+            Product product = await _context.Products.FindAsync(Id);
+            List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            CartItemModel cartItems = cart.Where(c => c.ProductId == Id).FirstOrDefault();
+
+            if (cartItems == null)
             {
-                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
-                Cart.AddItem(product, quantity);
-                HttpContext.Session.SetJson("cart", Cart);
+                cart.Add(new CartItemModel(product));
             }
-            return View("Cart", Cart);
+            else
+            {
+                cartItems.Quantity += 1;
+            }
+            HttpContext.Session.SetJson("Cart", cart);
+            return Redirect(Request.Headers["Referer"].ToString());
         }
 
-        [HttpPost]
-        public IActionResult AddToCartFromDetails(int productId, int quantity = 1)
+        public async Task<IActionResult> UpdateCart(int Id)
         {
-            Product? product = _context.Products.FirstOrDefault(p => p.ProductId == productId);
-            if (product != null)
+            List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
+
+            if (cartItem.Quantity > 1)
             {
-                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
-                if(Cart != null)
-                {
-                    Cart.AddItem(product, quantity);
-                    HttpContext.Session.SetJson("cart", Cart);
-                }
-                else
-                {
-                    Console.WriteLine("Loi");
-                }
+                --cartItem.Quantity;
             }
-            return View("Cart", Cart);
+            else
+            {
+                cart.RemoveAll(p => p.ProductId == Id);
+            }
+            if (cart.Count == 0)
+            {
+                HttpContext.Session.Remove("Cart");
+            }
+            else
+            {
+                HttpContext.Session.SetJson("Cart", cart);
+            }
+            return RedirectToAction("Index");
         }
 
-
-
-
-        public IActionResult UpdateCart(int productId)
+        public async Task<IActionResult> RemoveCart(int Id)
         {
-            Product? product = _context.Products
-                .FirstOrDefault(p => p.ProductId == productId);
-            if (product != null)
+            List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+
+            cart.RemoveAll(p => p.ProductId == Id);
+            if (cart.Count == 0)
             {
-                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
-                Cart.AddItem(product, -1);
-                HttpContext.Session.SetJson("cart", Cart);
+                HttpContext.Session.Remove("Cart");
             }
-            return View("Cart", Cart);
+            else
+            {
+                HttpContext.Session.SetJson("Cart", cart);
+            }
+            return RedirectToAction("Index");
         }
 
-        public IActionResult RemoveFromCart(int productId)
+        public async Task<IActionResult> Clear()
         {
-            Product? product = _context.Products
-                .FirstOrDefault(p => p.ProductId == productId);
-            if (product != null)
-            {
-                Cart = HttpContext.Session.GetJson<Cart>("cart");
-                Cart.RemoveLine(product);
-                HttpContext.Session.SetJson("cart", Cart);
-            }
-            return View("Cart", Cart);
+            HttpContext.Session.Remove("Cart");
+
+            return RedirectToAction("Index");
+
         }
     }
 }

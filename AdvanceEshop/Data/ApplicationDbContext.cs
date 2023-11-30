@@ -15,5 +15,9 @@ namespace AdvanceEshop.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<Size> Sizes { get; set; }
+
+        public DbSet<OrderModel> Orders { get; set; }
+
+        public DbSet<OrderDetails> OrderDetails { get; set; }
     }
 }

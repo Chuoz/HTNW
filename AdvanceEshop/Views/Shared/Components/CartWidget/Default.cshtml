@@ -4,9 +4,9 @@
 @{
 }
 
-@model Cart
+@model CartItemModel
 
 <a href="/Cart" class="btn border">
     <i class="fas fa-shopping-cart text-primary"></i>
-    <span class="badge">@Model?.Lines.Count</span>
+    @*<span class="badge">@Model?.Quantity.Count</span>*@
 </a>

@@ -10,7 +10,7 @@ namespace AdvanceEshop.Components
 
         public IViewComponentResult Invoke()
         {
-            return View(HttpContext.Session.GetJson<Cart>("cart"));
+            return View(HttpContext.Session.GetJson<CartItemModel>("cart"));
         }
     }
 }
