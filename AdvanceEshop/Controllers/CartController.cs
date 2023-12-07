@@ -3,26 +3,33 @@ using AdvanceEshop.Infrastructure;
 using AdvanceEshop.Models;
 using AdvanceEshop.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using static AdvanceEshop.Models.PaymentClient;
 
 namespace AdvanceEshop.Controllers
 {
     public class CartController : Controller
     {
+        private readonly PaypalClient _paypalClient;
         private readonly ApplicationDbContext _context;
-
-        public CartController(ApplicationDbContext context)
+        public CartController(ApplicationDbContext context, PaypalClient paypalClient)
         {
             _context = context;
+            _paypalClient = paypalClient;
         }
 
         public IActionResult Index()
         {
             List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            decimal? grandTotal = cartItems.Sum(x => x.Price * (1 - x.Discount) * x.Quantity);
+            HttpContext.Session.SetString("GrandTotal", grandTotal?.ToString("G"));
+            ViewBag.PaypalClientId = _paypalClient.ClientId;
             CartItemViewModel cartVM = new()
             {
                 CartItems = cartItems,
-                GrandTotal = cartItems.Sum(x => x.Price * (1 - x.Discount) * x.Quantity)
+                GrandTotal = grandTotal
             };
+
+            
             return View(cartVM);
         }
 
@@ -89,7 +96,6 @@ namespace AdvanceEshop.Controllers
             HttpContext.Session.Remove("Cart");
 
             return RedirectToAction("Index");
-
         }
     }
 }

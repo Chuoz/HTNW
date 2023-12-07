@@ -16,6 +16,9 @@ builder.Services.AddIdentity<AppUserModel, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+//builder.Services.AddScoped<IOrderService<OrderModel>, DefaultOrderService<OrderModel>>();
+
+
 builder.Services.AddScoped<SignInManager<AppUserModel>>();
 
 builder.Services.AddControllersWithViews();
@@ -26,10 +29,15 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-/*
-builder.Services.AddIdentity<AppUserModel,IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
-*/
+builder.Services.AddSingleton(x =>
+new PaypalClient(
+    builder.Configuration["PayPalOptions:ClientId"],
+    builder.Configuration["PayPalOptions:ClientSecret"],
+    builder.Configuration["PayPalOptions:Mode"]
+    )
+);
+
+
 builder.Services.AddRazorPages();
 builder.Services.Configure<IdentityOptions>(options =>
 {

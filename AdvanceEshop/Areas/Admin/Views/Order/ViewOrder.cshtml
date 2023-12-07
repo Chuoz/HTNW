@@ -5,17 +5,16 @@
 }
 
 <h2>Order Details</h2>
-
-<a asp-action="Create" asp-controller="Category" class="btn btn-primary btn-sm">Add New Category</a>
-
 <table class="table">
     <thead>
         <tr>
             <th scope="col">#</th>
             <th scope="col">Order Code</th>
-            <th scope="col">UserName</th>
-            <th scope="col">Order Status</th>
-            <th scope="col">Order Date</th>
+            <th scope="col">User Name</th>
+            <th scope="col">ProductId</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Product</th>
 
         </tr>
     </thead>
@@ -23,7 +22,13 @@
         @foreach (var item in Model)
         {
             <tr>
+                <th scope="row">@item.Id</th>
                 <th scope="row">@item.OrderCode</th>
+                <th scope="row">@item.UserName</th>
+                <th scope="row">@item.ProductId</th>
+                <th scope="row">@item.Price</th>
+                <th scope="row">@item.Quantity</th>
+                <th scope="row">@item.Product</th>
             </tr>
         }
 

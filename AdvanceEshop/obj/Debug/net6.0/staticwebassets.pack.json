@@ -205,6 +205,10 @@
       "PackagePath": "staticwebassets\\img\\payments.png"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\img\\paypal_checkout.gif",
+      "PackagePath": "staticwebassets\\img\\paypal_checkout.gif"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\img\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\product-1.jpg"
     },

@@ -1,8 +1,6 @@
 ﻿@using AdvanceEshop.Models.ViewModel
 @model CartItemViewModel
 
-
-
 @{
     ViewData["Title"] = "Cart and Paypal Demo";
 }
@@ -93,14 +91,53 @@
                             <h5 class="font-weight-bold">$@Model.GrandTotal.ToString()</h5>
                         </div>
                         <a asp-action="Checkout" asp-controller="Checkout" class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</a>
-                        <button id="paypal-button-container" class="btn btn-block btn-primary my-3 py-3">Paypal</button>
+                        <!-- <a asp-action="PaypalOrder" asp-controller="Paypal" id="paypal-button-container" class="btn btn-block btn-primary my-3 py-3">Paypal</a> -->
+                        <!-- <a asp-action="PaypalOrder" asp-controller="Paypal"><img src="~/img/paypal_checkout.gif" height="100" id="paypal-button-container" /></a> -->
                     </div>
-
                 }
             </div>
         </div>
-
-
     </div>
 </div>
 <!-- Cart End -->
+
+
+<div id="paypal-button-container" style="max-width:1000px;"></div>
+
+@section Scripts{
+
+    <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
+    <script>
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: (data, actions) => {
+                return fetch("/Paypal/PaypalOrder", {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                    .catch(error => alert(error.message));
+            },
+            onApprove: (data, actions) => {
+                return fetch(`/Paypal/PaypalCapture?orderId=${data.orderID}`, {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    //Đổi địa chỉ tới action thông báo thành công
+                    window.location.href = "/Paypal/Success";
+                }).catch(error => alert(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script>
+}

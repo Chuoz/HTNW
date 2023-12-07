@@ -148,6 +148,9 @@ namespace AdvanceEshop.Data.Migrations
                     b.Property<long>("ProductId")
                         .HasColumnType("bigint");
 
+                    b.Property<int?>("ProductId1")
+                        .HasColumnType("int");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -155,6 +158,8 @@ namespace AdvanceEshop.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId1");
 
                     b.ToTable("OrderDetails");
                 });
@@ -385,6 +390,15 @@ namespace AdvanceEshop.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("AdvanceEshop.Models.OrderDetails", b =>
+                {
+                    b.HasOne("AdvanceEshop.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId1");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("AdvanceEshop.Models.Product", b =>

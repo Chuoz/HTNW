@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zk66lgeF+vKNEFVEo7N1/eimhKn5rY2Z1mvQEvDZ0ZQ=",
+  "Hash": "nSNRAcJB/ZZVPnkHlCjNO8Os9rDTVK3zurmREezTenk=",
   "Source": "AdvanceEshop",
   "BasePath": "_content/AdvanceEshop",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\payments.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\img\\paypal_checkout.gif",
+      "SourceId": "AdvanceEshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\",
+      "BasePath": "_content/AdvanceEshop",
+      "RelativePath": "img/paypal_checkout.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paypal_checkout.gif"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Documents\\Phát triển ứng dụng\\AdvanceEshop\\AdvanceEshop\\wwwroot\\img\\Product\\638363465126607989_cat-6.jpg",
