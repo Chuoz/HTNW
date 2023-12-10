@@ -1,0 +1,1025 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdvanceEshop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AdvanceEshop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Hoodie.webp",
+      "PackagePath": "staticwebassets\\img\\Hoodie.webp"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\638363465126607989_cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\638363465126607989_cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\638363466200755655_cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\638363466200755655_cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\638363467105856596_cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\638363467105856596_cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\638363471481231737_cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\638363471481231737_cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\Hoodie.webp",
+      "PackagePath": "staticwebassets\\img\\Product\\Hoodie.webp"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\offer-1.png",
+      "PackagePath": "staticwebassets\\img\\Product\\offer-1.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\offer-2.png",
+      "PackagePath": "staticwebassets\\img\\Product\\offer-2.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\payments.png",
+      "PackagePath": "staticwebassets\\img\\Product\\payments.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\user.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\Product\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\Product\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\offer-1.png",
+      "PackagePath": "staticwebassets\\img\\offer-1.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\offer-2.png",
+      "PackagePath": "staticwebassets\\img\\offer-2.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\paypal_checkout.gif",
+      "PackagePath": "staticwebassets\\img\\paypal_checkout.gif"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\img\\yellow.jpg",
+      "PackagePath": "staticwebassets\\img\\yellow.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\categories\\265d4af8-7d23-4378-9cb3-265491829a87_chiem-nguong-bst-tui-mlb-monogram-cross-bag-da-lam-nen-ten-tuoi-cho-mlb.jpg",
+      "PackagePath": "staticwebassets\\media\\categories\\265d4af8-7d23-4378-9cb3-265491829a87_chiem-nguong-bst-tui-mlb-monogram-cross-bag-da-lam-nen-ten-tuoi-cho-mlb.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\categories\\78ade98e-6a15-47c9-b701-0309e931ba52_cat-4.jpg",
+      "PackagePath": "staticwebassets\\media\\categories\\78ade98e-6a15-47c9-b701-0309e931ba52_cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\categories\\8a7f62ff-76e0-462c-869d-772395e0d10e_cat-6.jpg",
+      "PackagePath": "staticwebassets\\media\\categories\\8a7f62ff-76e0-462c-869d-772395e0d10e_cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\categories\\ab31ce90-bd19-42f0-991d-e9f086cefb73_slider_3.jpg",
+      "PackagePath": "staticwebassets\\media\\categories\\ab31ce90-bd19-42f0-991d-e9f086cefb73_slider_3.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\categories\\b3470274-cf7c-4cca-b4da-f3c0f66fa542_cat-5.jpg",
+      "PackagePath": "staticwebassets\\media\\categories\\b3470274-cf7c-4cca-b4da-f3c0f66fa542_cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\28494081-2331-463b-b561-67dac159f0ed_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\28494081-2331-463b-b561-67dac159f0ed_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\3711639a-3c63-4e8b-afbc-b2766734cc4a_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3711639a-3c63-4e8b-afbc-b2766734cc4a_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\3bfef4aa-be73-49bb-af01-2d2f3efdf04e_cat-5.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3bfef4aa-be73-49bb-af01-2d2f3efdf04e_cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\6067ac45-77b2-477d-bc0e-67537ed4c4aa_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\6067ac45-77b2-477d-bc0e-67537ed4c4aa_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\aa75bfe7-cc72-4d67-b8fe-2f94ad05dfe4_áo.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\aa75bfe7-cc72-4d67-b8fe-2f94ad05dfe4_áo.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\c4aa39e7-4e76-48fc-8b7a-b7b6d8b8c2b2_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c4aa39e7-4e76-48fc-8b7a-b7b6d8b8c2b2_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\ce35c40f-8f7c-4658-acd6-61fa7dbc75f9_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ce35c40f-8f7c-4658-acd6-61fa7dbc75f9_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\db97b3f2-38b3-4de7-b5ba-8a89caf847c9_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\db97b3f2-38b3-4de7-b5ba-8a89caf847c9_ao-thun-mlb-chinh-hang-monogram-big-lux-ny-yankees-den-3atsm0334-50bks-2.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\media\\products\\e890286e-8cb1-42a3-b896-4def76eebdeb_cat-6.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e890286e-8cb1-42a3-b896-4def76eebdeb_cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Univer\\Thương mại điện tử\\Doan\\HTNW-Paypal\\AdvanceEshop\\wwwroot\\sitemap.xml",
+      "PackagePath": "staticwebassets\\sitemap.xml"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdvanceEshop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AdvanceEshop.props",
+      "PackagePath": "build\\AdvanceEshop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdvanceEshop.props",
+      "PackagePath": "buildMultiTargeting\\AdvanceEshop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdvanceEshop.props",
+      "PackagePath": "buildTransitive\\AdvanceEshop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

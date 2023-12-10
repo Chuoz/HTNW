@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@await Component.InvokeAsync("Imagebar")
+<!-- Categories End -->
+<!-- Offer Start -->
+<div class="container-fluid offer pt-5">
+    <div class="row px-xl-5">
+        <div class="col-md-6 pb-4">
+            <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
+                <img src="img/offer-1.png" alt="Image">
+                <div class="position-relative" style="z-index: 1;">
+                    <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                    <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
+                    <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pb-4">
+            <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
+                <img src="img/offer-2.png" alt="Image">
+                <div class="position-relative" style="z-index: 1;">
+                    <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                    <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
+                    <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@await Component.InvokeAsync("Trandy")
+
+<!-- Products End -->
+<!-- Subscribe Start -->
+<div class="container-fluid bg-secondary my-5">
+    <div class="row justify-content-md-center py-5 px-xl-5">
+        <div class="col-md-6 col-12 py-5">
+            <div id="mc_embed_shell" style="display: flex; align-content: center; justify-content: center">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup {
+                        max-width: 100%; /* Đặt chiều rộng tối đa là 100% của container */
+                        margin: 0 auto; /* Canh giữa phần tử theo chiều ngang */
+                        padding: 0 15px; /* Thêm một số padding ở hai bên để tạo khoảng trống tốt hơn */
+                    }
+                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup" style="background: none; width: 100%">
+                    <form action="https://gmail.us8.list-manage.com/subscribe/post?u=c7e60828da0b8c9223b58be07&amp;id=262b80b5d3&amp;f_id=00e711e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2" >Đăng ký!</h2>
+                            
+                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                                <input type="text" name="b_c7e60828da0b8c9223b58be07_262b80b5d3" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"  value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Subscribe End -->
+<!-- Products Start -->
+@await Component.InvokeAsync("JustArrived")
+
+<!-- Products End -->
+<!-- Vendor Start -->
+<div class="container-fluid py-5">
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="owl-carousel vendor-carousel">
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-1.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-2.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-3.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-4.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-5.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-6.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-7.jpg" alt="Image">
+                </div>
+                <div class="vendor-item border p-4">
+                    <img src="img/vendor-8.jpg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vendor End -->

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<OrderDetails>
+@{
+    ViewData["title"] = "Order Details";
+
+}
+
+<h2>Order Details</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Code</th>
+            <th scope="col">User Name</th>
+            <th scope="col">ProductId</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Product</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <th scope="row">@item.OrderCode</th>
+                <th scope="row">@item.UserName</th>
+                <th scope="row">@item.ProductId</th>
+                <th scope="row">@item.Price</th>
+                <th scope="row">@item.Quantity</th>
+                <th scope="row">@item.Product</th>
+            </tr>
+        }
+
+    </tbody>
+</table>
